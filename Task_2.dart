@@ -76,4 +76,6 @@ void main() {
 
   print("After محاولة التعديل:");
   cam1.display();
+  cam2.display();
+  cam3.display();
 }
