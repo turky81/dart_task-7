@@ -62,8 +62,12 @@ class Camera {
 
 void main() {
   Camera cam1 = Camera(1, "Canon", "Black", 5000);
+  Camera cam2 = Camera(2, "Nikon", "Red", 4500);
+  Camera cam3 = Camera(3, "Sony", "White", 6000);
 
   cam1.display();
+  cam2.display();
+  cam3.display();
 
 // تجربة validation
   cam1.price = -200; // خطأ
